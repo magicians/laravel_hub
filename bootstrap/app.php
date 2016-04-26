@@ -41,6 +41,15 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+//api
+$app['Dingo\Api\Auth\Auth']->extend('oauth', function ($app) {
+	return new Dingo\Api\Auth\Provider\JWT($app['Tymon\JWTAuth\JWTAuth']);
+});
+
+$app['Dingo\Api\Http\RateLimit\Handler']->extend(function ($app) {
+	return new Dingo\Api\Http\RateLimit\Throttle\Authenticated;
+});
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
