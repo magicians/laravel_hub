@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>宣城论坛</title>
+    <title>粉丝集中营</title>
 
     <!-- Bootstrap -->
     <link href="{{url('css/bootstrap.min.css')}}" rel="stylesheet">

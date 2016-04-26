@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{url('/')}}">宣城论坛</a>
-            <a class="navbar-brand" href="{{url('/shop')}}">商城</a>
+            <a class="navbar-brand" href="{{url('/')}}">Fanshub</a>
+            <a class="navbar-brand" href="{{url('/shop')}}">粉丝商城</a>
             <a class="navbar-brand" href="{{url('/about')}}">关于</a>
         </div>
 
