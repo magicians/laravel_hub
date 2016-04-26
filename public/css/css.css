@@ -1,0 +1,215 @@
+body {
+    font-family: "RobotoDraft", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+pre {
+    border: none;
+    background-color: transparent;
+    font-family: Courier, "Courier New", Menlo, Monaco, Consolas, monospace;
+    font-size: 14px;
+}
+
+pre code {
+    font-family: Courier, "Courier New", Menlo, Monaco, Consolas, monospace;
+    border-radius: 4px;
+    padding: 10px !important;
+}
+.nodecorate a{
+    text-decoration: none;
+}
+.nodecorate a:hover{
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.navbox {
+    border-top: none;
+    padding-top: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.navbox div {
+    border: none;
+}
+
+#announcement ul {
+    padding-left: 15px;
+}
+
+.media-meta a {
+    color: #ce8483;
+}
+
+a {
+    color: #555;
+}
+
+.sm-info {
+    color: #ce8483;
+    font-size: 13px;
+}
+
+.info-title {
+    color: #555;
+    font-size: 14px;
+}
+
+.media-meta {
+    font-size: 12px;
+    color: #d0d0d0;
+}
+
+.right-bottom-msg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    padding: 10px 15px 10px 10px;
+}
+
+.progress-bar-warning {
+    background-color: #9d3650 !important;
+}
+
+.progress-bar-warning h4 {
+    color: #FFF !important;
+}
+
+.progress-bar-warning .media-meta {
+    color: #FFF;
+}
+
+.progress-bar-warning .media-meta a {
+    color: #FFF;
+}
+
+/* 一般容器样式 */
+.panel-default .panel-heading {
+    color: #777;
+}
+
+.panel-default .panel-heading h4 {
+    color: #3c3c3c;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+/* 邮件 */
+.danger-font {
+    color: #d9534f;
+}
+
+.danger-background {
+    background-color: #d9534f;
+}
+
+.font-color-444 {
+    color: #444;
+}
+
+.font-color-999 {
+    color: #999;
+}
+
+.margintop-10 {
+    margin-top: 10px;
+}
+
+.margintop-30 {
+    margin-top: 30px;
+}
+
+.margintop-40 {
+    margin-top: 40px;
+}
+
+.marginleft-10 {
+    margin-left: 10px;
+}
+
+.marginbottom-30 {
+    margin-bottom: 30px;
+}
+
+.marginbottom-100 {
+    margin-bottom: 100px;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.paddingleft-2 {
+    padding-left: 2px;
+}
+
+.paddingleft-10 {
+    padding-left: 10px;
+}
+
+.paddingleft-20 {
+    padding-left: 20px;
+}
+
+.paddingleft-30 {
+    padding-left: 30px;
+}
+
+.paddingtop-20 {
+    padding-top: 20px;
+}
+
+.paddingtop-30 {
+    padding-top: 30px;
+}
+
+.backred {
+    background-color: #7f404b;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-color-777 {
+    color: #777;
+}
+
+.height-115 {
+    height: 115px;
+}
+
+.height-77 {
+    height: 87px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*管理员页面*/
+.form-signin{
+    padding:0 50px;
+}
+.form-signin .form-group{
+    margin:0px;
+}
+.form-signin h2{
+    margin:80px 0 20px 0;
+}
+.form-signin .form-group .form-control{
+    height:40px;
+    form-size:18px !important;
+}
+.form-signin .btn{
+    margin-top:20px;
+}
