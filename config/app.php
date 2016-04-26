@@ -40,7 +40,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://laravel.app'),
+    'url' => env('APP_URL', 'http://fanshub.app'),
 
     /*
     |--------------------------------------------------------------------------
