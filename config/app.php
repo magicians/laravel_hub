@@ -214,6 +214,13 @@ return [
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
+
+        'API'       => Dingo\Api\Facade\API::class,
+        'APIRoute'  => Dingo\Api\Facade\Route::class,
+        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
+
     ],
+
+
 
 ];
