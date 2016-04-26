@@ -160,6 +160,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
 	    Barryvdh\Debugbar\ServiceProvider::class,
+	    Dingo\Api\Provider\LaravelServiceProvider::class,
+
 
     ],
 

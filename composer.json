@@ -16,7 +16,8 @@
         "mockery/mockery": "0.9.4",
         "phpunit/phpunit": "~4.8.24",
         "symfony/css-selector": "2.8.*|3.0.4",
-        "symfony/dom-crawler": "2.8.*|3.0.4"
+        "symfony/dom-crawler": "2.8.*|3.0.4",
+        "dingo/api": "1.0.*@dev"
     },
     "autoload": {
         "classmap": [
