@@ -160,7 +160,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
 	    Barryvdh\Debugbar\ServiceProvider::class,
-	    Dingo\Api\Provider\LaravelServiceProvider::class,
+//	    Dingo\Api\Provider\LaravelServiceProvider::class,
 
 
     ],
@@ -215,9 +215,9 @@ return [
 	    'Debugbar' => Barryvdh\Debugbar\Facade::class ,
 
 
-	    'API'      => Dingo\Api\Facade\API::class ,
-	    'APIRoute' => Dingo\Api\Facade\Route::class ,
-	    'JWTAuth'  => Tymon\JWTAuth\Facades\JWTAuth::class ,
+//	    'API'      => Dingo\Api\Facade\API::class ,
+//	    'APIRoute' => Dingo\Api\Facade\Route::class ,
+//	    'JWTAuth'  => Tymon\JWTAuth\Facades\JWTAuth::class ,
 
     ],
 
